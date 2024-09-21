@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "pepe", "email": "pepe@pepe.com" },
+  { "id": 2, "name": "juancito", "email": "juan@pepe.com" },
+  {
+    "id": 3,
+    "name": "camila",
+    "email": "camila@gmail.com",
+    "lastname": "marcos",
+    "username": "cami",
+    "password": "$2b$10$JrbSBBQKemvOgKXQNbYyxemSGBeuq8C5a6TE50Jt5FRSoYM9wOmeS"
+  }
+]

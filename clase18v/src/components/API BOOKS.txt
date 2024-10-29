@@ -1,0 +1,18 @@
+API BOOKS
+
+descipt
+
+
+ENDPOINT
+
+/books get => obtenrs todos
+/books/:id get => obtenrs libros por id
+
+post 
+
+{
+    name: "adfasd"
+}
+
+
+/authors

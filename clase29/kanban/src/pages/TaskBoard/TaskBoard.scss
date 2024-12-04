@@ -1,0 +1,49 @@
+.task-board {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: 1rem;
+  
+    .task-column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background-color: #f8f9fa;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+  
+      h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 1rem;
+      }
+  
+      &:hover {
+        background-color: #f1f3f5;
+      }
+  
+      .task-card {
+        background-color: #ffffff;
+        color: rgb(41, 41, 41);
+        font-weight: bolder;
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.5rem;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.418);
+        cursor: grab;
+        transition: transform 0.1s ease-in-out;
+  
+        &:hover {
+          transform: scale(1.02);
+        }
+  
+        &:active {
+          cursor: grabbing;
+        }
+      }
+    }
+  }
+  
